@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const LeftPart = styled.img`
 float: left;
-position: abslute;
+position: absolute;
 width: 50%;
 height: 899.82px;
 display: flex;

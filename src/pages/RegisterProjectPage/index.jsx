@@ -41,8 +41,6 @@ export const RegisterProjectPage = () => {
         projectDescription: '',
         investment: 0,
         minInvestment: 0,
-        country: '',
-        videoSource: ''
     });
     const [dueDate,setDueDate] = useState(new Date());
     const handleDateChange = useCallback((date) => setDueDate(date));
@@ -65,7 +63,7 @@ export const RegisterProjectPage = () => {
                         handleDateChange = {handleDateChange}
                         />;
             case 2:
-                return <ProjectPresentation formValues={inputValues} handleChange={handleChange}/>;
+                return <ProjectPresentation/>;
             default:
                 return "Nada para hacer" + dueDateString;
         }

@@ -25,6 +25,3 @@ lib
 
 # Desktop services store
 **/.DS_Store
-
-./package-lock.json
-./yarn.lock

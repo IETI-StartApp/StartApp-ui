@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Titulo = styled.text`
-font-family: Robot;
+font-family: Roboto;
 font-style: Roboto;
 font-weight: Roboto;
 font-size: 30px;
